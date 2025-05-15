@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: white;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav{
+    height: max-content;
+    width: max-content;
+    display: inline-block;
+}
+#searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar{
+    height: 40px;
+    display: grid;
+}
+#drop{
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(235, 223, 223);
+}
+#searchtext{
+    width: 500px;
+    background-color: white;
+}
+#searchicon{
+    width: 50px;
+    color: black;
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: orange;
+    display: grid;
+    place-items: center;
+}
+option{
+    color: black;
+    background-color: white;
+}
+#navbar{
+    color: white;
+    height: 35px;
+    background-color: rgb(16, 7, 40);
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#banner{
+    height: 700px;
+    background-image: url("amazon\ banner.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.outerbox{
+    height: 400px;
+    width: 450px;
+    background-color: white;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: end;
+    flex-wrap: wrap;
+}
+.innerbox{
+    height: 150px;
+    width: 180px;
+}
+.heading{
+    font-size: 20px;
+    height: 60px;
+    width: 400px;
+    display: grid;
+    place-items: center;
+}
+figcaption{
+    text-align: center;
+    caption-side: bottom;
+}
+#sponser{
+    height: 300px;
+    margin: 20px;
+    background-image: url("Sponsored.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bottom{
+    height: 350px;
+    width: 300px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.bottom2{
+    height: 50px;
+    width: 150px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo" class="nav">
+            <a href="https://www.amazon.in">
+            <img src="amazon logo.jpg" alt="amazon" height="40px"></a>
+        </div>
+        <div id="address" class="nav">
+            <p style="color: rgb(211, 203, 203);">Deliver to</p>
+            <h4><i class="fa-solid fa-location-dot"></i>Arwal 804428</h4>
+        </div>
+        <div id="searchbar" class="nav">
+            <section id="drop" class="bar">
+                <select id="drop" style="border: transparent;">
+                    <option value="All">All</option>
+                    <option value="Books">Books</option>
+                    <option value="Mobile">Smartphone</option>
+                    <option value="Accessories">Accessories</option>
+                    <option value="Clothing">Clothing</option>
+                    <option value="Shoes">Shoes</option>
+                    <option value="Kitchen">Kitchen</option>
+                    <option value="Appliances">Appliances</option>
+                </select>
+            </section>
+            <section id="searchtext" class="bar">
+                <input type="text" placeholder="Search Amazon.in" style="border: transparent;">
+            </section>
+            <section id="searchicon" class="bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </section>
+        </div>
+        <div id="lang" class="nav">
+            <img src="flag.jpg" alt="flag" height="10px">
+            <select id="lang" style="border: transparent; background-color: black; color: white;">
+                <option value="EN">EN</option>
+                <option value="HIN">Hindi</option>
+                <option value="Urdu">Urdu</option>
+                <option value="Sanskrit">Sanskrit</option>
+                <option value="Pun">Punjabi</option>
+            </select>
+        </div>
+        <div id="account" class="account">
+            <p >Hello, Sign in</p>
+            <h4>Account & Lists</h4>
+        </div>
+        <div id="order" class="nav">
+            <p>Returns</p>
+            <h4>& Orders</h4>
+        </div>
+        <div id="cart" class="nav">
+            <i class="fa-solid fa-cart-shopping" style="font-size: 40px; color: rgb(244, 94, 35);"></i>
+        </div>
+    </header>
+    <main style="background-color: beige;">
+        <section id="navbar">
+            <p><i class="fa-solid fa-bars"></i> All</p>
+            <p>MX Player</p>
+            <p>Sell</p>
+            <p>Bestsellers</p>
+            <p>Today's Deals</p>
+            <p>Mobiles</p>
+            <p>Fashion</p>
+            <p>Customer service</p>
+            <p>Prime</p>
+            <p>New Releases</p>
+            <p>Electronics</p>
+        </section>
+        <div id="banner">
+            <section id="box1" class="outerbox">
+                <div class="heading"><h2>Smartphones curated for you</h2></div>
+                <div class="innerbox"><figure><img src="iqoo z10.jpg" alt="IQOO Z10" width="180px"><figcaption>IQOO Z10</figcaption></figure></div>
+                <div class="innerbox"><figure><img src="realme GT 6T.jpg" alt="Realme GT 6T" width="180px"><figcaption>Realme GT 6T</figcaption></figure></div>
+                <div class="innerbox"><figure><img src="Redmi A4.jpg" alt="Redmi A4" width="180px"><figcaption>Redmi A4</figcaption></figure></div>
+                <div class="innerbox"><figure><img src="Xiaomi 14 Pro.jpg" alt="Xiaomi 14 Pro" width="180px"><figcaption>Xiaomi 14 Pro</figcaption></figure></div>
+            </section>
+            <section id="box2" class="outerbox">
+                <div class="heading"><h2>Deals on accessories from your top smartphone brands</h2></div>
+                <div class="innerbox"><figure><img src="apple.jpg" alt="apple" width="180px"><figcaption>Apple | Up to 20%</figcaption></figure></div>
+                <div class="innerbox"><figure><img src="oneplus.jpg" alt="oneplus" width="180px"><figcaption>Oneplus | starting Rs. 9999</figcaption></figure></div>
+                <div class="innerbox"><figure><img src="samsung.jpg" alt="samsung" width="180px"><figcaption>Samsung | Up to 60% off</figcaption></figure></div>
+                <div class="innerbox"><figure><img src="Xiaomi.jpg" alt="Xiaomi" width="180px"><figcaption>Xiaomi | Up to 70% off</figcaption></figure></div>
+            </section>
+            <section id="box3" class="outerbox">
+                <div class="heading"><h2>Minimum 50% off | Home, Kitchen & more</h2></div>
+                <div class="innerbox"><figure><img src="Furniture.jpg" alt="furniture" width="180px"><figcaption>Furniture</figcaption></figure></div>
+                <div class="innerbox"><figure><img src="Home decor.jpg" alt="Home decor" width="180px"><figcaption>Home decor</figcaption></figure></div>
+                <div class="innerbox"><figure><img src="Home improvement.jpg" alt="Home lock" width="180px"><figcaption>Home improvement</figcaption></figure></div>
+                <div class="innerbox"><figure><img src="Induction.jpg" alt="Induction" width="180px"><figcaption>Kitchen essentials</figcaption></figure></div>
+            </section>
+        </div>
+        <div id="sponser"></div>
+    </main>
+    <footer style="color: white;">
+        <section style="height: 50px; background-color: rgb(16, 7, 40); display: grid; place-items: center;">
+            <p>Back to top</p>
+        </section>
+        <section style="height: 400px; background-color: rgb(18, 5, 30); display: flex; justify-content: center; justify-content: space-evenly; align-items: center;">
+            <div class="bottom">
+                <h3>Get to Know Us</h3>
+                <p>About Amazon</p>
+                <p>Careers</p>
+                <p>Press Releases</p>
+                <p>Amazon science</p>
+            </div>
+            <div class="bottom">
+                <h3>Connect with Us</h3>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Twitter</p>
+            </div>
+            <div class="bottom">
+                <h3>Make Money with us</h3>
+                <p>Sell on Amazon</p>
+                <p>Sell under Amazon Accelerator</p>
+                <p>Protect and Build your brand</p>
+                <p>Amazon Global Selling</p>
+                <p>Supply to Amazon</p>
+                <p>Become an Affiliate</p>
+                <p>Fulfilment by Amazon</p>
+                <p>Advertise your products</p>
+                <p>Amazon Pay on Merchants</p>
+            </div>
+            <div class="bottom">
+                <h3>Let Us Help You</h3>
+                <p>Your Account</p>
+                <p>Returns Centre</p>
+                <p>Recalls and product safety alerts</p>
+                <p>100% Purchase Protection</p>
+                <p>Amazon App Download</p>
+                <p>Help</p>
+            </div>
+        </section>
+        <hr>
+        <section style="height: 100px; background-color: rgb(18, 5, 30); display: flex; justify-content: center; align-items: center;">
+            <div class="bottom2"><a href="https://www.amazon.in">
+            <img src="amazon logo.jpg" alt="amazon" height="40px"></a></div>
+            <div class="bottom2"><i class="fa-solid fa-globe"></i><a> English</a></div>
+            <div class="bottom2"><img src="flag.jpg" alt="flag" height="20px"><a> India</a></div>
+        </section>
+    </footer>
+</body>
+</html>
